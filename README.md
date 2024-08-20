@@ -37,7 +37,7 @@ This figure illustrates the overall architecture of the proposed DAMAS-FISTA-Net
 python train.py --train_dir ./data_split/One_train.txt --test_dir ./data_split/One_test.txt
 ```
 
-After training, the trained model will be saved in the `save_models` folder. We also provide a pre-trained model for the DAMAS-FISAT-Net architecture. One may download the model from `./save_models/08-20-23-06/last.pt` to reproduce the results.
+After training, the trained model will be saved in the `save_models` folder. We also provide a pre-trained model for the DAMAS-FISTA-Net architecture. One may download the model from `./save_models/08-20-23-06/last.pt` to reproduce the results.
 
 
 
@@ -47,7 +47,7 @@ After training, the trained model will be saved in the `save_models` folder. We 
 python test.py --ckpt ./save_models/08-20-23-06/last.pt --test_dir ./data/One_test.txt
 ```
 
-After testing, the visualization and output results can be found in the `"vis_results"` and `"output_results"` folder, respectively.
+After testing, the visualization and output results can be found in the `"vis_results"` and `"output_results"` folder, respectively. Also, these results can be downloaded from the following link:
 
 
 
