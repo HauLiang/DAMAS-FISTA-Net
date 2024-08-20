@@ -51,7 +51,7 @@ After training, the trained model will be saved in the `save_models` folder. We 
 python test.py --ckpt ./save_models/08-20-23-06/last.pt --test_dir ./data/One_test.txt
 ```
 
-After testing, the visualization and output results can be found in the `"vis_results"` and `"output_results"` folder, respectively. Also, these results can be downloaded from the following link:
+After testing, the visualization and output results can be found in the `"vis_results"` and `"output_results"` folder, respectively. 
 
 
 
