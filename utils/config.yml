@@ -1,0 +1,11 @@
+base:
+ c: 343   # sound speed
+ fs: 51200  # sampling frequency
+ N_total_samples: 1024   # length of the acoustic signal
+ scan_low_freq: 2000     # lower bound of the scanning frequency range (in Hz)
+ scan_high_freq: 2000    # upper bound of the scanning frequency range (in Hz)
+ scan_resolution: 0.1    # resolution of the scanning area
+ scan_x: [-2, 2]     # x-axis scanning range (in meters)
+ scan_y: [-2, 2]     # y-axis scanning range (in meters)
+ z_dist: 2.5   # distance from the microphone array to the scan plane (in meters)
+
