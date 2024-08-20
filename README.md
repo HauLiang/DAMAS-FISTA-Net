@@ -48,7 +48,7 @@ After training, the trained model will be saved in the `save_models` folder. We 
 ## Testing
 
 ```shell
-python test.py --ckpt ./save_models/08-20-23-06/last.pt --test_dir ./data/One_test.txt
+python test.py --ckpt ./save_models/08-21-00-56/last.pt --test_dir ./data_split/One_test.txt
 ```
 
 After testing, the visualization and output results can be found in the `"vis_results"` and `"output_results"` folder, respectively. 
