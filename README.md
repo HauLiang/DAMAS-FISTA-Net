@@ -27,7 +27,7 @@ This figure illustrates the overall architecture of the proposed DAMAS-FISTA-Net
 
 - Dataset Setup:
 
-  To train and test the network, one may need to place the downloaded "`data`" and "`label`" flies into the "`dataset`" folder. Also, we have provided an implementation for dataset splitting. Please refer to the `.txt` file in the "`data_split`" folder for details. 
+  To train and test the network, one may need to place the downloaded `"data"` and `"label"` flies into the `"dataset"` folder. Also, we have provided an implementation for dataset splitting. Please refer to the `.txt` file in the `"data_split"` folder for details. 
 
 
 
